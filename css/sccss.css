@@ -1,0 +1,43 @@
+.negative-top .container {
+  margin-top: -124px;
+}
+.negative-top .container img {
+  position: relative;
+  z-index: 99;
+}
+.our-practices .container {
+	max-width:640px;  
+}
+
+@media screen and (max-width: 600px) {
+	.our-practices .container .one_half {
+    	margin-bottom:0;
+	}
+	.our-practices .container .one_half p {
+    	margin-bottom:0;
+	}
+}
+
+.page-about-us #row--2 .entry-title,
+.page-g4 #row--1 .entry-title {
+  text-transform:none;
+}
+
+.haveherback-twitter-embed iframe {
+    display: block !important;
+    max-width: 640px !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.timeline-LoadMore-prompt--edge {
+	border: none !important; 
+}
+
+.remove-bottom-padding {
+  padding-bottom: 0 !important;
+}
+
+.remove-top-padding {
+  padding-top: 0 !important;
+}
